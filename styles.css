@@ -178,12 +178,11 @@ body {
   background-color: #C4C4C4;
   padding-top: 200px;
   padding-bottom: 200px;
-  max-width: 1600px;
-  max-height: 600px;
+  /* max-width: 1600px;
+  max-height: 600px; */
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-  url(../images/hero-photo.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-photo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -440,16 +439,19 @@ body {
   fill: #afb1b8;
 }
 
-.client-item:hover,
-.client-item:focus {
+.client-link:hover,
+.client-link:focus {
   color: var(--main-blue);
   border: 1px solid var(--main-blue);
 }
 
-.client-item:hover .client-icon,
-.client-item:focus .client-icon{
+
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
   fill: var(--main-blue);
 }
+
+
 
 /*--------------PORTFOLIO------------ */
 
